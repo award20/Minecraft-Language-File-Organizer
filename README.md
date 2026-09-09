@@ -13,9 +13,9 @@ Run the program in the same directory as `en_us.json`
 `./main`
 
 ### Alternative Option for Windows
-Download `JsonLangScanner.exe` and put it in the same directory as `en_us.json`
+Download `MinecraftLanguageFileOrganizer.exe` and put it in the same directory as `en_us.json`
 
-Double click `JsonLangScanner.exe` or run `.\JsonLangScanner.exe` in terminal
+Double click `MinecraftLanguageFileOrganizer.exe` or run `.\MinecraftLanguageFileOrganizer.exe` in terminal
 ___
 ### Example Output
 
