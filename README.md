@@ -3,7 +3,23 @@ A small C program that reads a Minecraft `en_us.json` language file and generate
 
 The program parses translation entries, sorts them alphabetically, automatically discovers translation types, and organizes them into readable tables.
 
-`example output.txt`
+### Building
+Compile with GCC
+
+`gcc main.c -o main`
+
+Run the program in the same directory as `en_us.json`
+
+`./main`
+
+### Alternative Option for Windows
+Download `JsonLangScanner.exe` and put it in the same directory as `en_us.json`
+
+Double click `JsonLangScanner.exe` or run `.\JsonLangScanner.exe` in terminal
+___
+### Example Output
+
+`output.txt`
 ```
 Grand Test Mod
 ==============
@@ -198,7 +214,10 @@ message
  message | grandtestmod | status_message_036 | Process 36 completed successfully  
 ```
 
-`example en_us.json`
+___
+### Example input
+
+`en_us.json`
 ```
 {
     "itemGroup.grandtestmod.grand_test_mod": "Grand Test Mod",
