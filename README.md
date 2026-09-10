@@ -16,6 +16,12 @@ Run the program in the same directory as `en_us.json`
 Download `MinecraftLanguageFileOrganizer.exe` and put it in the same directory as `en_us.json`
 
 Double click `MinecraftLanguageFileOrganizer.exe` or run `.\MinecraftLanguageFileOrganizer.exe` in terminal
+
+You can change the input and output file names in `main.c` by changing
+```
+#define INPUT_FILENAME <your_input_file>.json
+#define OUTPUT_FILENAME <your_output_file>.txt
+```
 ___
 ### Example Output
 
