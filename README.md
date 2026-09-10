@@ -19,8 +19,8 @@ Double click `MinecraftLanguageFileOrganizer.exe` or run `.\MinecraftLanguageFil
 
 You can change the input and output file names in `main.c` by changing
 ```
-#define INPUT_FILENAME <your_input_file>.json
-#define OUTPUT_FILENAME <your_output_file>.txt
+#define INPUT_FILENAME "<your_input_file>.json"
+#define OUTPUT_FILENAME "<your_output_file>.txt"
 ```
 ___
 ### Example Output
