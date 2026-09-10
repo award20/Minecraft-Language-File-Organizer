@@ -1,5 +1,4 @@
-## Minecraft 
-## Language File Organizer
+# Minecraft Language File Organizer
 A small C program that reads a Minecraft `en_us.json` language file and generates a formatted `output.txt` report.
 
 The program parses translation entries, sorts them alphabetically, automatically discovers translation types, and organizes them into readable tables.
